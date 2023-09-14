@@ -1,0 +1,21 @@
+flavors:
+  hftransformers:
+    code: code
+    hf_config_class: WhisperConfig
+    hf_predict_module: predict
+    hf_pretrained_class: WhisperForConditionalGeneration
+    hf_tokenizer_class: WhisperProcessor
+    huggingface_id: openai/whisper-large
+    model_data: data
+    pytorch_version: 2.0.0+cu117
+    task_type: automatic-speech-recognition
+    transformers_version: 4.26.1
+  python_function:
+    code: code
+    data: data
+    env: conda.yaml
+    loader_module: azureml.evaluate.mlflow.hftransformers
+    python_version: 3.8.16
+mlflow_version: 2.2.1
+model_uuid: b8d5e1276f93438592774d7b8fc7226f
+utc_time_created: '2023-05-10 19:58:41.209501'
