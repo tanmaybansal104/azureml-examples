@@ -1,7 +1,7 @@
 # Instructions to run the batch endpoint notebook
 
 1. Install [Git](https://git-scm.com/downloads)
-2. Clone the repository and switch to the whisper batch fix branch by entering the below command in the Command Prompt.
+2. Clone the repository and switch to the whisper batch fix branch by entering the below commands in the Command Prompt.
 
 ```
 git clone https://github.com/tanmaybansal104/azureml-examples.git
